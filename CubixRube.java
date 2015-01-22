@@ -5,6 +5,8 @@ public class CubixRube {
 	
 	public static void main(String[] args) {
 
+		/*
+
 		int[][] topFace = new int[3][3];
 		int[][] bottomFace = new int[3][3];
 
@@ -38,6 +40,13 @@ public class CubixRube {
 		
 
 		cube.rotateBackClockwise();
+		cube.print();
+
+		*/
+
+		CubeBuilder cubeBuilder = new CubeBuilder();
+		RubixCube cube = cubeBuilder.buildCube();
+
 		cube.print();
 	}
 }
